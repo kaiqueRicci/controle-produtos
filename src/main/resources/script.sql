@@ -1,4 +1,5 @@
--- script para  criaçã de tabela de produtos
+-- script para  criação da
+-- tabela de produtos
 
 
 
@@ -13,8 +14,8 @@ CREATE TABLE produtos (
                       'INFORMATICA',
                       'ELETRONICOS',
                       'GAMES',
-                          'LIVRARIA',
-                          'OUTROS'
+                      'LIVRARIA',
+                      'OUTROS'
        )
 
      )

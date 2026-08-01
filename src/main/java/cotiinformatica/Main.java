@@ -1,5 +1,6 @@
 package cotiinformatica;
 
+import cotiinformatica.repositories.ProdutoRepository;
 import cotiinformatica.services.ProdutoService;
 
 public class Main {

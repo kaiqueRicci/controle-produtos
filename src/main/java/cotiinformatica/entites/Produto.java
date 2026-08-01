@@ -13,3 +13,5 @@ public class Produto {
     public LocalDateTime dataHoraCadastro;
     public Categoria categoria;
 }
+
+

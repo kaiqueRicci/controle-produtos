@@ -2,6 +2,7 @@ package cotiinformatica.services;
 
 import cotiinformatica.entites.Produto;
 import cotiinformatica.enums.Categoria;
+import cotiinformatica.repositories.ProdutoRepository;
 
 import java.time.LocalDateTime;
 import java.util.Scanner;
@@ -42,6 +43,12 @@ public class ProdutoService {
         System.out.print("INFORME A CATEGORIA: ");
         produto.categoria = Categoria.valueOf( scanner.nextLine().toUpperCase());
 
-        //TODO Gravação em banco de dados.
+        // Gravação em banco de dados.
+
+        var produtoRepository = new ProdutoRepository();
+        produtoRepository.inserir(produto);
+
+
+
     }
 }
